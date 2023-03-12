@@ -1,0 +1,26 @@
+baseURL = 'https://otrantolimited.github.io/'
+languageCode = 'en-gb'
+defaultContentLanguage = 'en'
+title = 'Otranto'
+theme = 'hermit'
+
+[author]
+  name = 'Otranto Limited'
+
+[params]
+  themeColor = '#1D2A3A'
+  homeSubtitle = 'Digital Financial Markets Consulting'
+  footerCopyright = ' &#183 All rights reserved'
+
+  code_copy_button = true
+
+#  [[params.social]]
+#    name = 'github'
+#    url = 'https://github.com/otrantolimited'
+
+
+#[menu]
+#  [[menu.main]]
+#   name = "About"
+#    url = "about-otranto/"
+#    weight = 10
