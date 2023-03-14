@@ -10,16 +10,26 @@ $midnightblue: #2c3e50;
 
 // Fonts
 //
-$fonts: "Glacial Indifference", "Fira Sans Condensed", "Trebuchet MS", Verdana;
+$fonts: "Glacial Indifference", Verdana;
 $code-fonts: "Fira Mono", Consolas, "Andale Mono WT", "Andale Mono", Menlo, Monaco, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, "YaHei Consolas Hybrid", monospace, "Segoe UI Emoji", "PingFang SC", "Microsoft YaHei";
 
 
 @font-face {
   font-family: 'Glacial Indifference';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: local('Glacial Indifference'),
-      url('/fonts/GlacialIndifference-Regular.woff2') format('woff2');
+      url('/fonts/GlacialIndifference-Regular.woff2') format('woff2'),
+      url('/fonts/GlacialIndifference-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Glacial Indifference'),
+      url('/fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+      url('/fonts/GlacialIndifference-Bold.woff') format('woff');
 }
 // Mixins
 //
