@@ -4,17 +4,26 @@ defaultContentLanguage = 'en'
 title = 'Otranto'
 theme = 'hermit'
 googleAnalytics = 'G-J746HX58HQ'
+disableKinds = 'RSS'
 
 [author]
   name = 'Otranto Limited'
 
 [params]
   themeColor = '#1D2A3A'
+  homeImg = 'imgs/wordmark.png'
   homeSubtitle = 'Digital Financial Markets Consulting'
-  footerCopyright = ' &#183 All rights reserved'
+  homeBody = 'Otranto operates globally, advising leading institutions on digital financial markets, digital currency and CBDC topics. We guide your organisation from strategy to design to implementation and secure operation, enabling you to take the next step in building a digital financial ecosystem.'
+  footerCopyright = ' &#183 All rights reserved.'
 
   code_copy_button = true
 
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+#  bgImg = "/imgs/wordmark.png"
 #  [[params.social]]
 #    name = 'github'
 #    url = 'https://github.com/otrantolimited'
