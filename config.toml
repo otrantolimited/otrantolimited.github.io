@@ -3,6 +3,7 @@ languageCode = 'en-gb'
 defaultContentLanguage = 'en'
 title = 'Otranto'
 theme = 'hermit'
+googleAnalytics = 'G-J746HX58HQ'
 
 [author]
   name = 'Otranto Limited'
